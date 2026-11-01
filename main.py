@@ -7,7 +7,12 @@ client = genai.Client()
 
 #ST.title("✈ Romancham Assist")
 #ST.caption("Plan your trip with us")
+ST.set_page_config(
+    page_title="Romancham Travel Assist",
+    page_icon="✈",
+    layout="wide",
 
+)
 ST.markdown("""
     <style>
         @keyframes pulse {
