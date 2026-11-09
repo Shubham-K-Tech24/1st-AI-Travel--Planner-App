@@ -2,7 +2,7 @@ import streamlit as ST
 from google import genai
 from dotenv import load_dotenv 
 import time
-load_dotenv()
+load_dotenv()  # Load environment variables from .env file
 client = genai.Client()
 
 #ST.title("✈ Romancham Assist")
